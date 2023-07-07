@@ -43,3 +43,4 @@ if __name__ == "__main__":
     sort_documents(folder_path)
   else:
     print(f"Folder {folder_path} does not exist!")
+    

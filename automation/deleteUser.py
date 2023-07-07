@@ -21,3 +21,4 @@ if __name__ == "__main__":
     console.print(f"File '{file}' moved to temp folder!", style="bold green")
   else:
     console.print(f"Either folder or file does not exist!", style="bold red")
+    

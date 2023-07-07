@@ -19,3 +19,4 @@ def create_folder(folder_name):
 if __name__ == "__main__":
   folder_name = Prompt.ask("Enter folder name")
   create_folder(folder_name)
+  

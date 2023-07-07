@@ -1,7 +1,6 @@
 from rich.prompt import Prompt
 from rich.console import Console
 import os
-import shutil
 
 # Parse a log file for errors and warnings.
 # From the previous task, you’ve moved a log file into the logs folder. Now, parse the log file for errors and warnings and create two separate log files in a target directory:
@@ -34,3 +33,4 @@ if __name__ == "__main__":
     parse_log_file(log_file_path, "logs")
   else:
     console.print(f"Log file does not exist!", style="bold red")
+    
