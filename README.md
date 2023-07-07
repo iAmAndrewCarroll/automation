@@ -1,6 +1,6 @@
 # Automation
 
-- Much Script in this project
+- Automation and script is pretty cool.  We have some of it here.
 
 ## contribution
 
