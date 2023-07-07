@@ -11,10 +11,10 @@ prompt = Prompt()
 
 def sort_documents(folder_path):
   
-  root_direcotry = os.path.dirname(folder_path)
+  root_directory = os.path.dirname(folder_path)
   
-  logs_folder = os.path.join(root_direcotry, "logs")
-  mail_folder = os.path.join(root_direcotry, "mail")
+  logs_folder = os.path.join(root_directory, "logs")
+  mail_folder = os.path.join(root_directory, "mail")
   os.makedirs(logs_folder, exist_ok=True)
   os.makedirs(mail_folder, exist_ok=True)
   
